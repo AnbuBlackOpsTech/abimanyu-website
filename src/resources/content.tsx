@@ -37,8 +37,8 @@ const home: Home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  title: `${person.name} - Self-Hosted Homelab`,
+  description: `Homelab infrastructure running on Proxmox VE with self-hosted services. Exploring cybersecurity, privacy, and open source technologies.`,
   headline: <>Self-Hosted. Privacy-First. Open Source.</>,
   featured: {
     display: false,
@@ -55,8 +55,11 @@ const home: Home = {
   },
   subline: (
     <>
-      Welcome to my self-hosted homelab! This entire website runs on my home infrastructure
-      <br /> using Proxmox VE, Coolify, and Cloudflare Tunnel. Powered by open source.
+      Running a complete homelab infrastructure on Proxmox VE with 8+ self-hosted services.
+      <br />
+      From media servers to password management, all privately hosted with enterprise-grade security.
+      <br />
+      This site itself? Self-hosted via Coolify and Cloudflare Tunnel. Zero cloud dependency.
     </>
   ),
 };
