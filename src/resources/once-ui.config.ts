@@ -192,9 +192,7 @@ const schema: SchemaConfig = {
 };
 
 // social links
-const sameAs: SameAsConfig = {
-  github: "https://github.com/AnbuBlackOpsTech",
-};
+const sameAs: SameAsConfig = {};
 
 // social sharing configuration for blog posts
 const socialSharing: SocialSharingConfig = {
