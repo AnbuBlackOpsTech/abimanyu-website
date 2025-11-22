@@ -1,4 +1,4 @@
-# Abimanyu.co.uk
+# Abimanyu.co.uk 🌐
 
 Personal website showcasing homelab infrastructure and self-hosting projects.
 
@@ -68,3 +68,4 @@ Website auto-deploys from GitHub main branch via Coolify when changes are pushed
 ## License
 
 Personal website - All rights reserved.
+
