@@ -2,11 +2,11 @@
 
 Personal website showcasing homelab infrastructure and self-hosting projects.
 
-## About
+## About 📕
 
 Self-hosted website running on Proxmox VE infrastructure, deployed via Coolify with public access through Cloudflare Tunnel. Focused on privacy, security, and demonstrating enterprise homelab capabilities.
 
-## Tech Stack
+## Tech Stack 🧑‍💻
 
 - **Framework:** Next.js 15
 - **Language:** TypeScript
@@ -15,13 +15,13 @@ Self-hosted website running on Proxmox VE infrastructure, deployed via Coolify w
 - **Infrastructure:** Proxmox VE
 - **Public Access:** Cloudflare Tunnel
 
-## Local Development
+## Local Development ⬇️
 
-**Requirements:**
+**Requirements:** ⭐
 - Node.js v18.17+
 - npm
 
-**Setup:**
+**Setup:** 🔧
 ```bash
 # Install dependencies
 npm install
@@ -36,7 +36,7 @@ npm run build
 npm start
 ```
 
-## Configuration
+## Configuration ⚙️
 
 **Content:** `src/resources/content.tsx`
 - Personal information
@@ -44,28 +44,29 @@ npm start
 - Gallery images
 - Social links
 
-**Theme & Routes:** `src/resources/once-ui.config.ts`
+**Theme & Routes:** `src/resources/once-ui.config.ts` 🎨
 - Theme colors and styling
 - Enabled/disabled pages
 - Display settings
 
-## Deployment
+## Deployment ⬇️
 
 Website auto-deploys from GitHub main branch via Coolify when changes are pushed.
 
-**Workflow:**
+**Workflow:** 💧
 1. Make changes locally
 2. Commit and push to GitHub
 3. Redeploy in Coolify dashboard
 4. Live at https://abimanyu.co.uk
 
-## Infrastructure
+## Infrastructure 🏢
 
 - **Coolify (CT109):** Application deployment and management
 - **Cloudflare Tunnel (CT110):** Secure public access without port forwarding
 - **Proxmox VE:** Virtualization platform hosting all services
 
-## License
+## License 🪪
 
 Personal website - All rights reserved.
+
 
