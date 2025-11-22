@@ -222,8 +222,7 @@ const gallery: Gallery = {
   label: "Gallery",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
+  // Placeholder images - will be replaced with personal photos
   images: [
     {
       src: "/images/gallery/horizontal-1.jpg",
