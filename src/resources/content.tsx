@@ -41,7 +41,7 @@ const home: Home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Self-Hosted. Privacy-First. Open Source.</>,
   featured: {
-    display: true,
+    display: false,
     title: (
       <Row gap="12" vertical="center">
         <strong className="ml-4">Once UI</strong>{" "}
@@ -71,10 +71,10 @@ const about: About = {
     subItems: false,
   },
   avatar: {
-    display: true,
+    display: false,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -82,14 +82,15 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I'm passionate about homelabbing and cybersecurity. My homelab runs on Proxmox VE,
+        hosting various self-hosted services with a focus on privacy, security, and learning
+        enterprise technologies. This website itself is self-hosted on my infrastructure,
+        demonstrating the power of open source and self-reliance.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Work Experience",
     experiences: [
       {
@@ -135,7 +136,7 @@ const about: About = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
@@ -150,64 +151,47 @@ const about: About = {
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Homelab & Security Stack",
     skills: [
       {
-        title: "Figma",
+        title: "Infrastructure & Virtualization",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Running enterprise-grade virtualization with Proxmox VE, managing LXC containers, VMs, and ZFS storage pools.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "Proxmox",
+            icon: "github",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        title: "Next.js",
+        title: "Self-Hosting & Deployment",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Deploying applications with Coolify, Docker, and Infrastructure as Code principles. Public access via Cloudflare Tunnel.</>
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Docker",
+            icon: "github",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
+        images: [],
+      },
+      {
+        title: "Cybersecurity",
+        description: (
+          <>Focused on network security, self-hosted password management, Pi-hole DNS filtering, and secure remote access.</>
+        ),
+        tags: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Security",
+            icon: "github",
           },
         ],
-      },  
+        images: [],
+      },
     ],
   },
 };
