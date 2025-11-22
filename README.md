@@ -1,91 +1,70 @@
-# Magic Portfolio
+# Abimanyu.co.uk
 
-Magic Portfolio is a simple, clean, beginner-friendly portfolio template. It supports an MDX-based content system for projects and blog posts, an about / CV page and a gallery.
+Personal website showcasing homelab infrastructure and self-hosting projects.
 
-View the demo [here](https://demo.magic-portfolio.com).
+## About
 
-![Magic Portfolio](public/images/og/home.jpg)
+Self-hosted website running on Proxmox VE infrastructure, deployed via Coolify with public access through Cloudflare Tunnel. Focused on privacy, security, and demonstrating enterprise homelab capabilities.
 
-## Getting started
+## Tech Stack
 
-**1. Clone the repository**
-```
-git clone https://github.com/once-ui-system/magic-portfolio.git
-```
+- **Framework:** Next.js 15
+- **Language:** TypeScript
+- **Styling:** Once UI Design System
+- **Deployment:** Coolify (self-hosted)
+- **Infrastructure:** Proxmox VE
+- **Public Access:** Cloudflare Tunnel
 
-**2. Install dependencies**
-```
+## Local Development
+
+**Requirements:**
+- Node.js v18.17+
+- npm
+
+**Setup:**
+```bash
+# Install dependencies
 npm install
-```
 
-**3. Run dev server**
-```
+# Run development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-**4. Edit config**
-```
-src/resources/once-ui.config.js
-```
+## Configuration
 
-**5. Edit content**
-```
-src/resources/content.js
-```
+**Content:** `src/resources/content.tsx`
+- Personal information
+- About page sections
+- Gallery images
+- Social links
 
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/blog/posts or src/app/work/projects
-```
+**Theme & Routes:** `src/resources/once-ui.config.ts`
+- Theme colors and styling
+- Enabled/disabled pages
+- Display settings
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+## Deployment
 
-## Documentation
+Website auto-deploys from GitHub main branch via Coolify when changes are pushed.
 
-Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfolio/quick-start)
+**Workflow:**
+1. Make changes locally
+2. Commit and push to GitHub
+3. Redeploy in Coolify dashboard
+4. Live at https://abimanyu.co.uk
 
-## Features
+## Infrastructure
 
-### Once UI
-- All tokens, components & features of [Once UI](https://once-ui.com)
-
-### SEO
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
-
-### Design
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
-
-### Content
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
-
-### Localization
-- A localized, earlier version of Magic Portfolio is available with the next-intl library
-- To use localization, switch to the 'i18n' branch
-
-## Creators
-
-Lorant One: [Threads](https://www.threads.net/@lorant.one) / [LinkedIn](https://www.linkedin.com/in/lorant-one/)
-
-## Get involved
-
-- Join the Design Engineers Club on [Discord](https://discord.com/invite/5EyAQ4eNdS) and share your project with us!
-- Deployed your docs? Share it on the [Once UI Hub](https://once-ui.com/hub) too! We feature our favorite apps on our landing page.
+- **Coolify (CT109):** Application deployment and management
+- **Cloudflare Tunnel (CT110):** Secure public access without port forwarding
+- **Proxmox VE:** Virtualization platform hosting all services
 
 ## License
 
-Distributed under the CC BY-NC 4.0 License.
-- Attribution is required.
-- Commercial usage is not allowed.
-- You can extend the license to [Dopler CC](https://dopler.app/license) by purchasing a [Once UI Pro](https://once-ui.com/pricing) license.
-
-See `LICENSE.txt` for more information.
-
-## Deploy with Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fog%2Fhome.jpg)
+Personal website - All rights reserved.
