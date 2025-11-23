@@ -1,6 +1,6 @@
 # Abimanyu.co.uk 🌐
 
-<img width="3797" height="1938" alt="Screenshot 2025-11-23 000121" src="https://github.com/user-attachments/assets/c219bd78-5188-486a-9f0a-a0d50fba8c9c" />
+<img width="2560" height="1440" alt="Screenshot 2025-11-23 000441" src="https://github.com/user-attachments/assets/a71ff334-2634-4cb4-9f6e-de3bc7700037" />
 
 Personal website showcasing homelab infrastructure and self-hosting projects.
 
@@ -70,6 +70,7 @@ Website auto-deploys from GitHub main branch via Coolify when changes are pushed
 ## License 🪪
 
 Personal website - All rights reserved.
+
 
 
 
